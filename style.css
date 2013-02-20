@@ -1,0 +1,101 @@
+html { height: 100%; }
+
+body { 
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+	color: #333;
+	text-align: center;
+	background: #fefefe;	
+	/*letter-spacing: 2px;*/
+	font-family: 'Josefin Slab', serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+#centre{ 
+	padding: 60px 10% 30px 10%; 
+	width: 80%; 
+	margin-left: auto ;
+  margin-right: auto ;
+}
+
+.top {
+	max-width: 960px;
+	padding: 10%;
+	text-align: center;
+	font-size: 30px;
+}
+.top h1 {
+	font-size: 30px;
+	padding: 0;
+	margin: 0 0 40px 0;
+	font-weight: 400;
+	line-height: 1.3;
+}
+.top h2 {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 30px;
+}
+a{
+	font-weight: 400;
+	text-decoration: none;
+	color: #116B43;
+}
+a:hover {
+	color: #333;
+}
+a>h2:hover {
+	color: #333;
+}
+
+.bottom {
+	height: 137.5px;
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	background: #2DB97E;
+}
+
+.winkerVSbecks { 
+  background: #116B43; 
+  width: 100%;
+	z-index: 9999;
+	position: fixed;
+	margin: 0 auto;
+	top: 0;
+	padding: 3px 0 0 20px;
+	display: block;
+	text-align: left;
+}
+.winkerVSbecks a {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 700;
+	color: #fefefe;
+}
+.winkerVSbecks a:hover {
+	color: #F5F066;
+}
+
+::selection {
+  background: #F5F066;
+}
+::-moz-selection {
+  background: #F5F066;
+}
+::-webkit-selection {
+  background: #F5F066;
+}
+
+
+
+
+
+
+
+
+
+

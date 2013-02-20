@@ -1,0 +1,148 @@
+html { height: 100%; cursor: pointer; }
+
+body { 
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+	color: #333;
+	text-align: center;
+	background: #FAEBDA;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#centre{ 
+	padding-top: 30px; 
+	width: 468px; 
+	height: 800px;
+	margin-left: auto;
+  margin-right: auto;
+	padding-left: 20px; 
+	padding-right: 20px; 
+}
+
+#cbsaReceipt {
+	width: 468px;
+	height: 740px;
+	background-image:url('img/paper_fibers_green_light.png');
+/*	background: #B6D8C0;	*/
+}
+
+.paper { 
+	width: 466px;
+	height: 738px;
+	display: block;
+	text-align: center; 
+	border: 1px solid #B6D8C0;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  	 -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 0 3px #c6e8d0;
+  	 -moz-box-shadow: inset 0 0 3px #c6e8d0;
+          box-shadow: inset 0 0 3px #c6e8d0;
+}
+
+.print {
+	width: 80%;
+	height: 83%;
+	background: 0;
+	padding: 0;
+	padding: 12% 10% 5% 10%;
+	margin: 0;
+	text-align: left;
+	z-index: 100;
+}
+
+.print h1 {
+	text-transform: uppercase;
+	line-height: 1.3;
+	font-size: 14px;
+	text-align: center;
+	padding: 0;
+	margin: 30px 0 0 0;
+	font-weight: 700;
+}
+
+.print p {
+	font-size: 14px;
+	line-height: normal;
+	text-align: left; 
+	font-weight: 400;
+	font-size: 11px;
+}
+.print p.side {
+	display: inline-block;
+	float: left;
+	width: 172px;
+	margin: 0 0 11px 10px;
+}
+.print p.filler {
+	text-align: center;
+	border-top: 1px solid #333;
+	margin-top: 0px;
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+.print p.me {
+	height: 40px;
+	margin: 0;
+	font-size: 34px;
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	color: #012249;
+	font-weight: lighter;
+	-webkit-transform: rotate(-4deg);
+		 -moz-transform: rotate(-4deg); 
+			-ms-transform: rotate(-4deg);
+			 -o-transform: rotate(-4deg); 
+			    transform: rotate(-4deg);
+}
+.print p.him {
+	height: 30px;
+	margin: 0;
+	font-size: 24px;
+	float: left;
+	text-align: center;
+	display: block;
+	margin-left: 130px;
+	font-family: 'Handlee', cursive;
+	color: #012249;
+	-webkit-transform: rotate(-2deg);
+		 -moz-transform: rotate(-2deg); 
+			-ms-transform: rotate(-2deg);
+			 -o-transform: rotate(-2deg); 
+			    transform: rotate(-2deg);
+}
+
+figure {
+	width: 186.5px;
+	float: left;
+	display: inline-block;
+	margin: 0;
+	border-top: 1px solid #333;
+	border-right: 1px solid #333;
+}
+.left {
+	text-align: left;
+	float: left;
+}
+.right {
+	text-align: right;
+	float: right;
+}
+.topTitle {
+	display: inline-block;
+	margin-left: 20px;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 1.1;
+}
+.print p.sr {
+	display: block;
+	width: 100%;
+	clear: both;
+	font-size: 11px;
+	margin: 0;
+	padding: 0; 
+}

@@ -1,0 +1,114 @@
+html { height: 100%; cursor: pointer; }
+
+body { 
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+	color: #484A4D;
+	text-align: center;
+	background-image: url('img/stadhuis1.jpeg');	
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Quicksand', sans-serif;
+	/*font-family: 'Wire One', sans-serif;*/
+	/*font-family: 'Josefin Sans', sans-serif;*/
+	font-weight: 400;
+}
+
+#centre{ 
+	padding-top: 145px; 
+	width: 390px; 
+	margin-left: auto ;
+  margin-right: auto ;
+	padding-left: 20px; 
+	padding-right: 20px; 
+}
+
+#StadsdeelkantoorReceipt {
+	width: 390px;
+	height: 555px;
+	margin-top: -800px;
+	/*opacity: 0.6;  */
+}
+
+.paper { 
+	background-image:url('img/paper_fibers_light.png');	
+	width: 100%;
+	height: 100%;
+	text-align: center; 
+	border: 1px solid #ddd;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  	 -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.print {
+	width: 90%;
+	height: 90%;
+	background: 0;
+	padding: 10% 5% 5% 5%;
+	text-align: center;
+}
+
+.print h2 {
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 2;
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+.print h1 {
+	text-transform: uppercase;
+	line-height: 1.5;
+	font-size: 60px;
+	padding: 0;
+	margin: 0 0 40px 0;
+	font-weight: 400;
+}
+
+.print>p {
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: center; 
+}
+
+.barcode2 { 
+  clear:both;
+  display: inline-block;
+  padding: 0 10px;
+  overflow:auto;
+  height: 200px; /*size*/
+  text-align: center; 
+  margin-top: 55px;
+}
+.barcode2 + * { clear:both; }
+.barcode2 div { 
+  float:left;
+  height: 200px; /*size*/
+}
+.barcode2 .bar1 { 
+	border-left:2px solid #484A4D;
+}
+.barcode2 .bar2 { 
+	border-left:4px solid #484A4D;
+}
+.barcode2 .bar3 { 
+	border-left:6px solid #484A4D;
+}
+.barcode2 .bar4 { 
+	border-left:8px solid #484A4D;
+}
+.barcode2 .space0 { margin-right:0 }
+.barcode2 .space1 { margin-right:2px }
+.barcode2 .space2 { margin-right:4px }
+.barcode2 .space3 { margin-right:6px }
+.barcode2 .space4 { margin-right:8px }
+.barcode2 label { 
+  clear: both; 
+  display: block; 
+  text-align: center;   
+}

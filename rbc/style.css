@@ -1,0 +1,109 @@
+html { height: 100%; cursor: pointer; }
+
+body { 
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+	color: #333;
+	text-align: center;
+	/*background-image: url('img/stadhuis1.jpeg');	*/
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Quicksand', sans-serif;
+	/*font-family: 'Wire One', sans-serif;*/
+	/*font-family: 'Josefin Sans', sans-serif;*/
+}
+
+#centre{ 
+	padding-top: 145px; 
+	width: 390px; 
+	margin-left: auto;
+  margin-right: auto;
+	padding-left: 20px; 
+	padding-right: 20px; 
+}
+
+#rbcReceipt {
+	width: 390px;
+	height: 555px;
+	background-image:url('img/paper_fibers_light.png');	
+}
+
+.paper { 
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-align: center; 
+	border: 1px solid #ccc;
+	z-index: 100;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  	 -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.print {
+	width: 93%;
+	height: 85%;
+	background: 0;
+	padding: 0;
+	padding: 10% 4% 5% 3%;
+	margin: 0;
+	text-align: left;
+	z-index: 100;
+}
+
+.print h2 {
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 14px;
+	line-height: 2;
+	margin-bottom: 0;
+	font-weight: 400;
+	z-index: 100;
+}
+
+.print h1 {
+	text-transform: uppercase;
+	line-height: 1.5;
+	font-size: 60px;
+	padding: 0;
+	margin: 0 0 40px 0;
+	font-weight: 400;
+	z-index: 100;
+}
+
+.print>p {
+	font-size: 14px;
+	line-height: normal;
+	text-align: left; 
+	font-weight: 400;
+	z-index: 100;
+}
+.print>p.meta {
+	margin: 2px 0 0 0;
+}
+
+.spacer {
+	display: block;
+	width: 100%;
+	height: 150px;
+}
+
+hr {
+	outline: 0;
+	border: 0;
+	padding: 0;
+	height: 1px;
+	margin: 0;
+	border-bottom: 1px solid #333; 
+}
+
+.left {
+	text-align: left;
+	float: left;
+}
+
+.right {
+	text-align: right;
+	float: right;
+}
+

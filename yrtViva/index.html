@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" ng-app="motiph">
+<head>
+  <meta charset="utf-8">
+  <title>YRT Viva Receipt</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400|Quicksand:300,400|Wire+One|Josefin+Sans:100,400|Economica:400,700|VT323' rel='stylesheet' type='text/css'>
+  <script src="snowstorm-min.js"></script>
+  <script type="text/javascript">
+    snowStorm.snowColor = "#fff";
+    snowStorm.flakesMaxActive = 96;
+  </script>
+</head>
+<body>
+	
+	<div id="centre">
+  	<div id="YRTVivaReceipt"> 		
+      <div class="paper">
+  			<div class="print">
+          <h1>RECEIPT ONLY NOT A TICKET</h1>
+          <h2>VIVA/YRT</h2>
+          <div class="spacer"></div>
+  				<p>
+            York Region Transit<br /><br />
+            Jan&nbsp;&nbsp;31&nbsp;&nbsp;2013&nbsp;&nbsp;12:24&nbsp;pm&nbsp;&nbsp;Trans#98005
+          </p>
+          <br />
+          <p class="center">
+            TRANSACTION RECORD<br />
+            INTERAC DIRECT PAYMENT
+          </p>
+          <br />
+          <p>
+            <span class="equiSpan">Card Number</span>:&nbsp;&nbsp;***************2045<br />
+            <span class="equiSpan">Card Entry</span>:&nbsp;&nbsp;SWIPED<br />
+            <span class="equiSpan">Account</span>:&nbsp;&nbsp;INTERAC<br />
+            <span class="equiSpan">Account Type</span>:&nbsp;&nbsp;CHEQUING<br />
+            <span class="equiSpan">Trans Type</span>:&nbsp;&nbsp;PURCHASE<br />
+            <span class="equiSpan">Amount</span>:&nbsp;&nbsp;$&nbsp;30.00<br />
+          </p>
+          <p>
+            <span class="equiSpan">Auth #</span>:&nbsp;&nbsp;136141<br />
+            <span class="equiSpan">Sequence #</span>:&nbsp;&nbsp;0010017990<br />
+            <span class="equiSpan">Terminal #</span>:&nbsp;&nbsp;66161702<br />
+            <span class="equiSpan">Date</span>:&nbsp;&nbsp;13/01/31<br />
+            <span class="equiSpan">Time</span>:&nbsp;&nbsp;12:24:52<br />
+          </p>
+          <p class="center">
+            00/001 APPROVED - THANK YOU
+          </p>
+          <p class="center">
+            -- IMPORTANT --<br />
+            Retain This Copy For Your Records
+          </p>
+          <p class="center">
+            ***CUSTOMER COPY***
+          </p>
+  			</div>
+  		</div>
+    </div>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $("#YRTVivaReceipt").animate({
+      marginTop: '0',
+    }, 5000 );
+  });
+  $(document).click(function(){
+    window.location = '../CBSA';
+  });
+  </script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-22315045-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</body>
+</html>
